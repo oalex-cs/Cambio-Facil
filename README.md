@@ -1,4 +1,6 @@
 # Câmbio Fácil
+<img width="1348" height="766" alt="image" src="https://github.com/user-attachments/assets/3b3851b6-0285-4d77-b918-c39168a63515" />
+
 
 ### Descrição 
 Uma aplicação web para conversão de moedas que calcula o valor final com taxas e impostos de serviços como PayPal e Wise. O projeto demonstra o 

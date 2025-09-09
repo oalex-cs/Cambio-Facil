@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câmbio Fácil</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.cdnfonts.com/css/familjen-grotesk" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="title">
+                <h1>Câmbio Fácil</h1>
+                <p>Seu conversor de moedas online, de qualquer moeda para qualquer lugar!</p>
+            </div>
+
+            <div class="container">
+                <div class="input-valor">
+                    <label for="valor">Valor</label>
+                    <input type="text" name="valor" id="valor" placeholder="Digite um valor">
+                </div>
+
+                <div class="seletor">
+                    <label for="moeda1">Selecione sua Moeda</label>
+                    <select name="moeda1" id="moeda1" class="seletor-moeda">
+                        <option value="real">BRL</option>
+                        <option value="dolar">USD</option>
+                        <option value="euro">EUR</option>
+                        <option value="libra">GBP</option>
+                        <option value="yuan">CNY</option>
+                    </select>
+                </div>
+
+                <div class="seletor">
+                    <label for="moeda2">Selecione Moeda Destino</label>
+                    <select name="moeda2" id="moeda2" class="seletor-moeda">
+                        <option value="real">BRL</option>
+                        <option value="dolar">USD</option>
+                        <option value="euro">EUR</option>
+                        <option value="libra">GBP</option>
+                        <option value="yuan">CNY</option>
+                    </select>
+                </div>
+
+                <div class="select-servico">
+                    <label for="servico">Selecione o Serviço</label>
+                    <select name="servico" id="select-servico">
+                        <option value="paypal">Paypal</option>
+                        <option value="wise">Wise</option>
+                    </select>
+                </div>
+
+                <button type="submit" id="btn-valor">Faça sua convesão</button>
+
+                <div class="exibir-valor">
+                    <label for="exibir">Valor Convertido</label>
+                    <input type="text" name="exibir" id="input-exibir" readonly>
+                </div>
+            </div>
+
+            <div class="carregando">
+                <p>Aguarde</p>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
